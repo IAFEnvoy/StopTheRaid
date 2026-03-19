@@ -1,22 +1,9 @@
-# Stonecutter Template
+# Stop The Raid
 
-This is a multi-loader mod template for Fabric, Forge and NeoForge
+This mod allow you to use specific items to make Raid expired, useful when you cannot find Raiders.
 
-## Supported versions
+By default, you can use `White Banner` to stop Raid. You can configure which items to use.
 
-- Fabric 1.14+
-- Forge 1.17+
-- NeoForge 1.20.5+
+## Configuration
 
-## Before Use
-
-- Configure your project's metadata in `gradle.properties`.
-- If you want to use mixins, uncomment mixin processors in `build.forge.gradle.kts`, create mixin files and add to
-  `fabric.mod.json` and `neoforge.mods.toml`
-
-## Useful Links
-
-- Stonecutter docs: https://stonecutter.kikugie.dev/
-- Versions select guideline: https://stonecutter.kikugie.dev/wiki/start/#version-compatibility
-- Ceres (Fast dependencies search): https://ceres.mcdev.tech/
-- Parchment versions index: https://parchmentmc.org/docs/getting-started
+Items are defined in `stop_the_raid:expire_item`, you can modify which item can stop Raid by modifying this tag.

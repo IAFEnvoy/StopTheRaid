@@ -15,6 +15,9 @@
   "license": "${mod_license}",
   "environment": "*",
   "entrypoints": {
+    "main": [
+      "com.iafenvoy.stoptheraid._loader.fabric.StopTheRaidFabric"
+    ]
   },
   "mixins": [
   ],
